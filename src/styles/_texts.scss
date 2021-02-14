@@ -1,0 +1,194 @@
+// ######################################## //
+// ## TEXTS.SCSS ## //
+// ######################################## //
+
+// Font Primary
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap");
+// @font-face {
+//   font-family: 'Gilroy UltraLight';
+//   font-style: normal;
+//   src: url('../assets/gilroy-fonts/Gilroy-UltraLight.ttf'); /* IE9 Compat Modes */
+//   src: url('../assets/gilroy-fonts/Gilroy-UltraLight.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Gilroy Thin';
+//   font-style: normal;
+//   src: url('../assets/gilroy-fonts/Gilroy-Thin.ttf'); /* IE9 Compat Modes */
+//   src: url('../assets/gilroy-fonts/Gilroy-Thin.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Gilroy Light';
+//   font-style: normal;
+//   src: url('../assets/gilroy-fonts/Gilroy-Light.ttf'); /* IE9 Compat Modes */
+//   src: url('../assets/gilroy-fonts/Gilroy-Light.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Gilroy Regular';
+//   font-style: normal;
+//   src: url('../assets/gilroy-fonts/Gilroy-Regular.ttf'); /* IE9 Compat Modes */
+//   src: url('../assets/gilroy-fonts/Gilroy-Regular.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Gilroy Medium';
+//   font-style: normal;
+//   src: url('../assets/gilroy-fonts/Gilroy-Medium.ttf'); /* IE9 Compat Modes */
+//   src: url('../assets/gilroy-fonts/Gilroy-Medium.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Gilroy SemiBold';
+//   font-style: normal;
+//   src: url('../assets/gilroy-fonts/Gilroy-SemiBold.ttf'); /* IE9 Compat Modes */
+//   src: url('../assets/gilroy-fonts/Gilroy-SemiBold.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Gilroy Bold';
+//   font-style: normal;
+//   src: url('../assets/gilroy-fonts/Gilroy-Bold.ttf'); /* IE9 Compat Modes */
+//   src: url('../assets/gilroy-fonts/Gilroy-Bold.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Gilroy ExtraBold';
+//   font-style: normal;
+//   font-weight: 800;
+//   src: url('../assets/gilroy-fonts/Gilroy-ExtraBold.ttf'); /* IE9 Compat Modes */
+//   src: url('../assets/gilroy-fonts/Gilroy-ExtraBold.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Gilroy Black';
+//   font-style: normal;
+//   src: url('../assets/gilroy-fonts/Gilroy-Black.ttf'); /* IE9 Compat Modes */
+//   src: url('../assets/gilroy-fonts/Gilroy-Black.ttf') format('truetype');
+// }
+
+// @font-face {
+//   font-family: 'Gilroy Heavy';
+//   font-style: normal;
+//   font-weight: 700;
+//   src: url('../assets/gilroy-fonts/Gilroy-Heavy.ttf'); /* IE9 Compat Modes */
+//   src: url('../assets/gilroy-fonts/Gilroy-Heavy.ttf') format('truetype');
+// }
+
+// Text Primary
+.text-primary {
+  color: $theme-primary !important;
+}
+
+// Text Secondary
+.text-secondary {
+  color: rgba($theme-secondary, 0.71) !important;
+}
+
+// Text Info
+.text-info {
+  color: $theme-info !important;
+}
+
+// Text Success
+.text-success {
+  color: $theme-success !important;
+}
+
+// Text Danger
+.text-danger {
+  color: $theme-danger !important;
+}
+
+// Text Cyan
+.text-cyan {
+  color: darken($theme-cyan, 8%) !important;
+}
+
+// Text Yellow
+.text-yellow {
+  color: darken($theme-yellow, 10%) !important;
+}
+
+// Heading style
+.title1,
+.title2,
+.title3,
+.title4,
+.title5,
+.title6 {
+  margin: 0;
+  line-height: 1.4;
+}
+
+// styles
+.title1 {
+  font-size: 1.9rem;
+  color: $text-primary;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.title2 {
+  font-size: 1.8rem;
+  color: $text-primary;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.title3 {
+  font-size: 1.5rem;
+  color: $text-primary;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.title4 {
+  font-size: 1.3rem;
+  color: $text-primary;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.title5 {
+  font-size: 1.2rem;
+  color: $text-primary;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.title6 {
+  font-size: 1rem;
+
+  color: $text-primary;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+// lead text
+.lead {
+  font-size: 1rem;
+  color: $theme-primary;
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+}
+
+// link text style
+.text-link {
+  font-size: 0.9rem;
+  color: $theme-secondary;
+  line-height: 1.6;
+  font-weight: 700;
+
+  &:hover {
+    color: darken($theme-secondary, 5%);
+  }
+}
+
+// input primary
+.input-primary {
+  font-size: 0.93rem;
+  color: $theme-secondary;
+  line-height: 1.5;
+}

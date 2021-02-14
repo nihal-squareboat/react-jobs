@@ -1,0 +1,42 @@
+// ######################################## //
+// ## STYLES.SCSS ## //
+// ######################################## //
+
+@import "../../styles/variables/colors";
+@import "../../styles/variables/mixins";
+
+.error-page-style {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .illustration-box {
+    .illustration {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 250px;
+      height: 250px;
+
+      @include mobile {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+  .xl {
+    font-size: 100px;
+
+    @include mobile {
+      font-size: 70px;
+    }
+  }
+  .title2 {
+    @include mobile {
+      font-size: 1.5rem;
+    }
+  }
+}
